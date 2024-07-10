@@ -456,7 +456,11 @@ button.next {
   flex-wrap: wrap;
   column-gap: 15px;
   row-gap: 15px;
-  justify-content: end
+
+}
+.m-align{
+  justify-content: end;
+  margin-top: 0;
 }
 .blog-card-left.l-blog-card-left {
   width: 625px !important;
@@ -1128,7 +1132,7 @@ left: 55px;}
 }
 }
 
-@media (min-width: 425px){
+@media (max-width: 425px){
   .m-mob-w {
     width: 378px !important;
 }
